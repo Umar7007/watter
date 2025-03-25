@@ -1,0 +1,52 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(243, 215, 183, 1);
+}
+
+.left {
+    width: 45%;
+}
+
+.img1 {
+    position: relative;
+    top: 300px;
+    z-index: 1;
+}
+
+.img2 {
+    position: absolute;
+    top: 200px;
+    right: 680px;
+    z-index: 2;
+}
+
+section {
+    height: 500px;
+    background-color: white;
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 400px;
+
+}
+
+.img3 {
+    transition: 0.3s linear;
+}
+
+.img3:hover {
+    transform: scale(1.8);
+}
+
+button {
+    border-radius: 15px;
+    background-color: rgba(10, 119, 95, 1);
+    border: none;
+    width: 120px;
+    height: 50px;
+}
